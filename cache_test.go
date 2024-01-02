@@ -29,6 +29,7 @@ func TestNotify(t *testing.T) {
 		So(err, ShouldEqual, nil)
 		So(rx0, ShouldNotEqual, nil)
 		rx1, err = Compile(`.*`)
+		So(err, ShouldEqual, nil)
 		So(rx1, ShouldNotEqual, nil)
 		So(rx0, ShouldEqual, rx1)
 		_, err = Compile(`[Broken`)
