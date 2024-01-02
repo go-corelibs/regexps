@@ -1,4 +1,4 @@
-module github.com/go-curses/corelibs/regexps
+module github.com/go-corelibs/regexps
 
 go 1.21.0
 
