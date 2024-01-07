@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/go-corelibs/regexps/graph/badge.svg?token=0OdOVL6gMb)](https://codecov.io/gh/go-corelibs/regexps)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-corelibs/regexps)](https://goreportcard.com/report/github.com/go-corelibs/regexps)
 
-# go-corelibs/regexps - caching regexp compiler and common regexp patterns
+# regexps - caching regexp compiler and common regexp patterns
 
 regexps is a simple package for common regexp patterns and a caching
 regexp compilation system.
